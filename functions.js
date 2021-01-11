@@ -66,13 +66,13 @@ function squareOrDouble(n) {
   let m=parseInt(n);
   if(m %2===0){
     
-    console.log(`${m} ... ${m*2}`);
+    return(m*2);
   }
   else {   
-   console.log(`${m} ... ${m*m}`);
+   return (m*m);
 }
 
-  return(m);
+  
 }
 
 
